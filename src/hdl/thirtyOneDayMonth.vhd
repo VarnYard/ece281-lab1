@@ -89,7 +89,7 @@ begin
            when "101" => o_Y <= not i_D;
            when "110" => o_Y <= not i_D;
            when "111" => o_Y <= not i_D;
-           when others => o_Y <= i_D;
+           when others => o_Y <= not i_D;
        end case; 
 
 	end process; 	
